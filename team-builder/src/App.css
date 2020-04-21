@@ -1,0 +1,70 @@
+.App {
+  text-align: left;
+  margin: 2rem;
+}
+
+h1 {
+  color: royalblue
+}
+
+.profile {
+  background-color: royalblue;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+input {
+  width: 200px;
+  margin: 5px auto;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid rgb(176, 176, 176);
+}
+
+.submit {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: royalblue;
+  border: 1px solid royalblue;
+}
+
+.submit:hover {
+  cursor: pointer;
+  border: 2px solid royalblue;
+  background-color: white;
+  color: royalblue;
+}
+
+.edit {
+  margin: 10px 0;
+  padding: 4px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: royalblue;
+  border: 2px solid white;
+  background: white;
+}
+
+.edit:hover {
+  cursor: pointer;
+  background-color: royalblue;
+  border: 2px solid white;
+  color: white;
+}
