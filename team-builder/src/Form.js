@@ -6,7 +6,7 @@ function Form(props) {
 
     return (
         <form>
-            <h2>Add a Team Member:</h2>
+            <h2 className='formTitle'>Add a Team Member:</h2>
 
             <label>
                 Name:&nbsp;

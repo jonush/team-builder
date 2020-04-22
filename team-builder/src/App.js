@@ -49,6 +49,13 @@ function App() {
       <header className="App-header">
         <h1>Team Members</h1>
       </header>
+
+      <Form
+        values={formValues}
+        onInputChange={onInputChange}
+        onSubmit={onSubmit}
+      />
+
       {
         members.map((profile, index) => {
           return (
@@ -56,12 +63,6 @@ function App() {
           )
         })
       }
-
-      <Form
-        values={formValues}
-        onInputChange={onInputChange}
-        onSubmit={onSubmit}
-      />
     </div>
   );
 }
